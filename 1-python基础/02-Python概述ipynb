@@ -123,34 +123,11 @@
     "- var_name = var_value\n",
     "- var1 = var2 = var3 = var_value\n",
     "- var1, var2, var3 = v1, v2, v3"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 7,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "18\n",
-      "18\n",
-      "18\n",
-      "18\n",
-      "18\n",
-      "12\n",
-      "21\n",
-      "45\n"
-     ]
-    }
-   ],
+
    "source": [
     "# 定义变量ａｇｅ，把１８放入变量ａｇｅ中\n",
     "age = 18\n",
     "print(age)\n",
-    "print(18)\n",
-    "\n",
     "# 给age1， age2， age3 放入同样一个内容或值\n",
     "age1 = age2 = age3 = 18\n",
     "print(age1)\n",
@@ -159,15 +136,6 @@
     "\n",
     "# 一行内给多个变量赋值\n",
     "age4, age5, age6 = 12, 21, 45\n",
-    "print(age4)\n",
-    "print(age5)\n",
-    "print(age6)\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
     "## 变量类型\n",
     "- 严格意义上讲，python只有一个类型\n",
     "- 标准数据一共六种\n",
@@ -177,12 +145,6 @@
     "    - 元组tuple\n",
     "    - 字典 Dictionary\n",
     "    - 集合 set"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
     "## Number数字类型\n",
     "- 数字类型没有大小限制\n",
     "### 整数\n",
@@ -204,29 +166,7 @@
     "        - 数字上以0x开头表示\n",
     "    - 十进制\n",
     "        - 18， 89， 178\n",
-    " "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "18\n",
-      "18\n",
-      "66\n",
-      "255\n"
-     ]
-    }
-   ],
-   "source": [
-    "age = 18\n",
-    "print(18)\n",
-    "\n",
+ 
     "age = 0b10010\n",
     "print(age)\n",
     "\n",
